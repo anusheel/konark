@@ -141,6 +141,53 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   background-color: white;
 }
+.btn-m {
+  color: white;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+.btn-m:hover,
+.btn-m:focus,
+.btn-m:active,
+.btn-m.active,
+.open .dropdown-toggle.btn-m {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+.btn-m:active,
+.btn-m.active,
+.open .dropdown-toggle.btn-m {
+  background-image: none;
+}
+.btn-m.disabled,
+.btn-m[disabled],
+fieldset[disabled] .btn-m,
+.btn-m.disabled:hover,
+.btn-m[disabled]:hover,
+fieldset[disabled] .btn-m:hover,
+.btn-m.disabled:focus,
+.btn-m[disabled]:focus,
+fieldset[disabled] .btn-m:focus,
+.btn-m.disabled:active,
+.btn-m[disabled]:active,
+fieldset[disabled] .btn-m:active,
+.btn-m.disabled.active,
+.btn-m[disabled].active,
+fieldset[disabled] .btn-m.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.btn-m .badge {
+  color: #fed136;
+  background-color: white;
+}
 .navbar-default {
   background-color: #222;
   border-color: transparent;
